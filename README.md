@@ -1,7 +1,4 @@
-# express-boilerplate_andrewtyl
-
-This is a boilerplate project used for starting new projects.
-
+# Express Boilerplate
 ## Boilerplate
 
 This is a boilerplate template for a new Express.js project. Additional details below.
