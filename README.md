@@ -4,7 +4,7 @@ This is a boilerplate project used for starting new projects.
 
 ## Boilerplate
 
-This is a boilerplate template for a new project. Additional details below.
+This is a boilerplate template for a new Express.js project. Additional details below.
 
 ## Set up
 
