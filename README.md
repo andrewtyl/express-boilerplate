@@ -1,7 +1,9 @@
 # Express Boilerplate [![Build Status](https://travis-ci.org/andrewtyl/express-boilerplate.svg?branch=master)](https://travis-ci.org/andrewtyl/express-boilerplate)
 ## Boilerplate
 
-This is a boilerplate template for a new Express.js project. Additional details below.
+This is a boilerplate template for a new Express.js project using HTTP. Additional details below.
+
+If you are looking for an Express Boilerplate that uses HTTPS, and not HTTP, [click here](https://github.com/andrewtyl/express--https-boilerplate).
 
 ## Set up
 
