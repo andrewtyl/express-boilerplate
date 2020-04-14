@@ -28,7 +28,7 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
 3. Install the Travis-CI CLI using instructions from https://github.com/travis-ci/travis.rb#readme. This requires installing Ruby Version 1.9.3 or greater (2.0.0 or greater is reccomended).
 4. Setup Travis-CI to automatically build pushed branches.
 5. Edit `.travis.yml`. See the file and https://docs.travis-ci.com/user/customizing-the-build for more details.
-6. Any future pushes to the master branch should automatically trigger a build to Heroku. NOTE: There is currently a bug that may show your build fails due to an incorrect API key. The deployment to Heroku should still trigger regardless, but your build will show as failing, even if every test passed. Also, any email notifications from `.travis.yml` will not trigger. Follow this issue at: https://travis-ci.community/t/heroku-deployment-fails-but-doesnt/8145/
+6. Any future pushes to the master branch should automatically trigger a build to Heroku.
 
 
 ###### License
