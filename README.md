@@ -16,7 +16,8 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
 5. Rename `example.env` to `.env`
 6. Edit `name`, `description`, and `repository` in `package.json`
 7. Edit `version`, `author`, `keywords`, and `license` in `package.json` if needed.
-8. Edit this file to include your app's name and description. It is reccomended to keep a backup of this file before altering it and add it to `.gitignore` or to reference the readme at `https://github.com/andrewtyl/express-boilerplate/blob/master/README.md` for additional information about Scripts and Deploying.
+8. In terminal, run `npm i --package-lock`. This will automatically update the package-lock.json file to match the edited values from package.json.
+9. Edit this file to include your app's name and description. It is reccomended to keep a backup of this file before altering it and add it to `.gitignore` or to reference the readme at `https://github.com/andrewtyl/express-boilerplate/blob/master/README.md` for additional information about Scripts and Deploying.
 
 ## Scripts
 * `npm start` - Starts a local server running the Express App. Any changes to files while this is running will NOT cause the server to restart.
