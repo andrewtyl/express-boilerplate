@@ -3,7 +3,7 @@
 
 This is a boilerplate template for a new Express.js project using HTTP. Additional details below.
 
-If you are looking for an Express Boilerplate that uses HTTPS, and not HTTP, [click here](https://github.com/andrewtyl/express--https-boilerplate).
+If you are looking for an Express Boilerplate that uses HTTPS, and not HTTP, [click here](https://github.com/andrewtyl/express-https-boilerplate).
 
 ## Set up
 
