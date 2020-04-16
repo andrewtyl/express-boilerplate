@@ -1,7 +1,7 @@
 {
   "name": "express-boilerplate",
   "description": "A boilerplate for express. Please follow instructions in readme before starting project.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": "Andrew Jessen-Tyler",
   "homepage": "https://github.com/andrewtyl/express-boilerplate",
   "license": "MIT",
@@ -19,22 +19,23 @@
     "type": "git",
     "url": "https://github.com/andrewtyl/express-boilerplate.git"
   },
-
   "keywords": [
-    "express"
+    "express",
+    "https"
   ],
   "main": "src/server.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "predeploy": "mocha --require test/setup.js ; npm audit"
+    "predeploy": "npm i --package-lock-only ; mocha --require test/setup.js ; npm audit"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "helmet": "^3.22.0",
+    "heroku-ssl-redirect": "0.0.4",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
