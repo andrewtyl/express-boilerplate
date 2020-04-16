@@ -31,7 +31,7 @@ Note: If you are using HTTPS, make sure your Heroku app has SSL configured prope
 2. Create an app on Heroku. You can do this with the Heroku CLI or at https://dashboard.heroku.com/
 3. Install the Travis-CI CLI using instructions from https://github.com/travis-ci/travis.rb#readme. This requires installing Ruby Version 1.9.3 or greater (2.0.0 or greater is reccomended).
 4. Setup Travis-CI to automatically build pushed branches from your github repo.
-5. Edit `.travis.yml`. See the file and https://docs.travis-ci.com/user/customizing-the-build for more details.
+5. Edit `.travis.yml`. You can get the secure API code by running `travis encrypt $(heroku auth:token) --pro` in terminal. See the file and https://docs.travis-ci.com/user/customizing-the-build for more details.
 6. Any future pushes to the master branch should automatically trigger a build to Heroku.
 
 
