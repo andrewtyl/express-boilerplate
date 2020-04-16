@@ -13,7 +13,7 @@ if (NODE_ENV === "development") {
 else {
     //These logging defaults assume you are using a seperate front end app to connect to the API.
     //If you are hosting a public API, it is highly reccomended you adjust these to more applicable values. https://www.npmjs.com/package/morgan#tokens
-    morganOption = ":date[web] - :method :url :status - :response-time[3] ms"
+    morganOption = ":date[web] - :method :url :status - :total-time[3] ms"
 }
 
 app.use(morgan(morganOption))
